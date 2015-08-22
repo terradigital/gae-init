@@ -16,7 +16,7 @@
     </ul>
   </li>
 # else
-  <li class="{{'active' if html_class.find('auth') != -1}}">
-    <a href="{{url_for('signin')}}"><span class="fa fa-fw fa-sign-in"></span> Sign in</a>
+  <li class="nav-item {{'active' if html_class.find('auth') != -1}}">
+    <a class="nav-link" href="{{url_for('signin')}}"><span class="fa fa-fw fa-sign-in"></span> Sign in</a>
   </li>
 # endif
