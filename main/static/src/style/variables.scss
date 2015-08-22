@@ -1,3 +1,5 @@
 $fa-font-path:            '/p/ext/font-awesome/fonts';
 
-$footer-height:           $line-height * 5;
+
+$footer-height:           160px;
+$line-height-computed:    $font-size-base * $line-height;
