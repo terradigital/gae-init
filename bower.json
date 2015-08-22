@@ -8,7 +8,7 @@
   },
   "overrides": {
     "bootstrap": {
-      "main": ["scss/**", "dist/js/umd/*"]
+      "main": ["scss/**", "dist/js/**"]
     },
     "font-awesome": {
       "main": ["scss/*", "fonts/*"]

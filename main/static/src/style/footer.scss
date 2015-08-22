@@ -15,7 +15,7 @@ body {
   height: $footer-height;
   border-top: 1px solid $hr-border-color;
   color: $text-muted;
-  background-color: $gray-lighter;
+  background-color: $gray-lightest;
   text-align: center;
   & > .container {
     display: table-cell;
