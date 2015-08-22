@@ -1,7 +1,3 @@
-@fa-font-path:            "/p/ext/font-awesome/fonts";
-@icon-font-path:          "/p/ext/bootstrap/fonts/";
+$fa-font-path:            '/p/ext/font-awesome/fonts';
 
-@footer-height:           (@line-height-computed * 5);
-
-@nprogress-color:         @brand-primary;
-@nprogress-spinner-top:   @navbar-height + @nprogress-spinner-right;
+$footer-height:           $line-height * 5;
