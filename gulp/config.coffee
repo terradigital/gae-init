@@ -5,15 +5,14 @@ config =
     "#{paths.static.ext}/jquery/dist/jquery.js"
     "#{paths.static.ext}/moment/moment.js"
     "#{paths.static.ext}/nprogress/nprogress.js"
-    "#{paths.static.ext}/bootstrap/js/alert.js"
-    "#{paths.static.ext}/bootstrap/js/button.js"
-    "#{paths.static.ext}/bootstrap/js/transition.js"
-    "#{paths.static.ext}/bootstrap/js/collapse.js"
-    "#{paths.static.ext}/bootstrap/js/dropdown.js"
-    "#{paths.static.ext}/bootstrap/js/tooltip.js"
+    "#{paths.static.ext}/bootstrap/dist/js/umd/alert.js"
+    "#{paths.static.ext}/bootstrap/dist/js/umd/button.js"
+    "#{paths.static.ext}/bootstrap/dist/js/umd/collapse.js"
+    "#{paths.static.ext}/bootstrap/dist/js/umd/dropdown.js"
+    "#{paths.static.ext}/bootstrap/dist/js/umd/tooltip.js"
   ]
   style: [
-    "#{paths.src.style}/style.less"
+    "#{paths.src.style}/style.scss"
   ]
   script: [
     "#{paths.src.script}/**/*.coffee"

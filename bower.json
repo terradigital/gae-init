@@ -1,18 +1,17 @@
 {
   "name": "gae-init",
   "dependencies": {
-    "bootstrap": "~3",
+    "bootstrap": "v4.0.0-alpha",
     "font-awesome": "~4",
     "jquery": "~2",
-    "moment": "~2",
-    "nprogress": "https://github.com/lipis/nprogress.git#master"
+    "moment": "~2"
   },
   "overrides": {
     "bootstrap": {
-      "main": ["less/**", "fonts/*", "js/*"]
+      "main": ["scss/**", "dist/js/umd/*"]
     },
     "font-awesome": {
-      "main": ["less/*", "fonts/*"]
+      "main": ["scss/*", "fonts/*"]
     }
   }
 }
