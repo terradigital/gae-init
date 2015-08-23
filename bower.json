@@ -1,7 +1,7 @@
 {
   "name": "gae-init",
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha",
+    "bootstrap": "v4-dev",
     "font-awesome": "~4",
     "jquery": "~2",
     "moment": "~2"
